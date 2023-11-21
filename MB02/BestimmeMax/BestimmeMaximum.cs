@@ -27,13 +27,28 @@ namespace MB02.BestimmeMax
             return result;
         }
 
+        public void CalcMax(int num1, int num2, ref int result, int a = 0, int b =4)
+        {
+            if (num1 > num2)
+            {
+                result = num1;
+            }
+            else
+            {
+                result = num2;
+            }
+        }
+
+
         private void CmdMax1_Click(object sender, EventArgs e)
         {
             var num1 = Convert.ToInt32(TxtValue1.Text);
             var num2 = Convert.ToInt32(TxtValue2.Text);
-            var maxValue = GetMax(num1, num2);
+            int res = 0;
+            CalcMax(num1, num2, ref res, b: 33);
+           // var maxValue = GetMax(num1, num2);
 
-            LblMax.Text = maxValue.ToString();
+            LblMax.Text = res.ToString();
         }
 
 
