@@ -1,4 +1,4 @@
-﻿namespace MB01.A8_2
+﻿namespace MB01.A_1
 {
     partial class A4_1_4
     {

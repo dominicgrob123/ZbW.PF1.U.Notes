@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MB01.A8_2
+namespace MB01.A_1
 {
     public partial class A4_1_4 : Form
     {
