@@ -1,4 +1,5 @@
 using MB04.HandtaschenBeispiel;
+using MB04.Hund;
 using MB04.ReferenzBeispiel;
 
 namespace MB04
@@ -15,9 +16,9 @@ namespace MB04
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             
-            Application.Run(new ReferenceExampleView());
+            //Application.Run(new ReferenceExampleView());
             //Application.Run(new Handtaschenverwaltung());
-
+            Application.Run(new DogView());
         }
     }
 }
