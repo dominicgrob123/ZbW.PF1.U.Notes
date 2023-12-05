@@ -16,4 +16,8 @@
     <Compile Include="HandtaschenBeispiel\Loesung\Handbag.txt" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Hund\" />
+  </ItemGroup>
+
 </Project>
