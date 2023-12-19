@@ -17,8 +17,8 @@ namespace MB04
             ApplicationConfiguration.Initialize();
             
             //Application.Run(new ReferenceExampleView());
-            //Application.Run(new Handtaschenverwaltung());
-            Application.Run(new DogView());
+            Application.Run(new Handtaschenverwaltung());
+            //Application.Run(new DogView());
         }
     }
 }
