@@ -32,10 +32,20 @@ namespace MB04.Hund
         {
             var nameBall = TxtNameBall.Text;
             Ball ball1 = new Ball(nameBall);
-            
+
             var hund1 = new Hund();
             var resultat = hund1.Spiele(ball1);
             MessageBox.Show(resultat);
+        }
+
+        private void BtnOk_Click(object sender, EventArgs e)
+        {
+            if(sender is Button)
+            {
+                Button button = (Button)sender;
+                button.BackColor = Color.Pink;
+            }
+
         }
     }
 }
