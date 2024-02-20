@@ -65,4 +65,4 @@ namespace MB09.StackArray.Loesung
         }
     }
 }
-}
+
