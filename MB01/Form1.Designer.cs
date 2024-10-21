@@ -50,16 +50,17 @@
             CmdHello.TabIndex = 2;
             CmdHello.Text = "Hallo";
             CmdHello.UseVisualStyleBackColor = true;
-            CmdHello.Click += CmdHello_Click;
+            CmdHello.Click += CmdHello_Click_1;
             // 
             // CmdEnd
             // 
-            CmdEnd.Location = new Point(249, 182);
+            CmdEnd.Location = new Point(55, 163);
             CmdEnd.Name = "CmdEnd";
             CmdEnd.Size = new Size(112, 34);
             CmdEnd.TabIndex = 3;
             CmdEnd.Text = "Ende";
             CmdEnd.UseVisualStyleBackColor = true;
+            CmdEnd.Click += CmdEnd_Click;
             // 
             // Form1
             // 
