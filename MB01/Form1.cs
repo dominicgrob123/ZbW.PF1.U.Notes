@@ -17,5 +17,15 @@ namespace MB01
         {
             LblShow.Text = "End";
         }
+
+        private void TxtInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NumNummer_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
