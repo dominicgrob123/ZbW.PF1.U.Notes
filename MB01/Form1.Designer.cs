@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            LblShow = new Label();
+            CmdHello = new Button();
+            CmdEnd = new Button();
+            SuspendLayout();
+            // 
+            // LblShow
+            // 
+            LblShow.AutoSize = true;
+            LblShow.Location = new Point(55, 45);
+            LblShow.Name = "LblShow";
+            LblShow.Size = new Size(40, 25);
+            LblShow.TabIndex = 1;
+            LblShow.Text = "leer";
+            // 
+            // CmdHello
+            // 
+            CmdHello.Location = new Point(55, 101);
+            CmdHello.Name = "CmdHello";
+            CmdHello.Size = new Size(112, 34);
+            CmdHello.TabIndex = 2;
+            CmdHello.Text = "Hallo";
+            CmdHello.UseVisualStyleBackColor = true;
+            CmdHello.Click += CmdHello_Click;
+            // 
+            // CmdEnd
+            // 
+            CmdEnd.Location = new Point(55, 168);
+            CmdEnd.Name = "CmdEnd";
+            CmdEnd.Size = new Size(112, 34);
+            CmdEnd.TabIndex = 3;
+            CmdEnd.Text = "Ende";
+            CmdEnd.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(CmdEnd);
+            Controls.Add(CmdHello);
+            Controls.Add(LblShow);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label LblShow;
+        private Button CmdHello;
+        private Button CmdEnd;
     }
 }
