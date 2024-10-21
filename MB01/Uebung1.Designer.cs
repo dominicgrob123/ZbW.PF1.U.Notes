@@ -31,16 +31,19 @@
             LblShow = new Label();
             CmdPlus = new Button();
             CmdMinus = new Button();
+            TxtInput = new TextBox();
+            NumNumber = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)NumNumber).BeginInit();
             SuspendLayout();
             // 
             // LblShow
             // 
             LblShow.AutoSize = true;
-            LblShow.Location = new Point(78, 37);
+            LblShow.Location = new Point(78, 33);
             LblShow.Name = "LblShow";
-            LblShow.Size = new Size(40, 25);
+            LblShow.Size = new Size(16, 25);
             LblShow.TabIndex = 0;
-            LblShow.Text = "leer";
+            LblShow.Text = ".";
             // 
             // CmdPlus
             // 
@@ -62,16 +65,36 @@
             CmdMinus.UseVisualStyleBackColor = true;
             CmdMinus.Click += CmdMinus_Click;
             // 
+            // TxtInput
+            // 
+            TxtInput.Location = new Point(305, 50);
+            TxtInput.Multiline = true;
+            TxtInput.Name = "TxtInput";
+            TxtInput.Size = new Size(318, 129);
+            TxtInput.TabIndex = 3;
+            // 
+            // NumNumber
+            // 
+            NumNumber.DecimalPlaces = 2;
+            NumNumber.Location = new Point(313, 236);
+            NumNumber.Name = "NumNumber";
+            NumNumber.Size = new Size(310, 31);
+            NumNumber.TabIndex = 4;
+            NumNumber.ValueChanged += NumNumber_ValueChanged;
+            // 
             // Uebung1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(NumNumber);
+            Controls.Add(TxtInput);
             Controls.Add(CmdMinus);
             Controls.Add(CmdPlus);
             Controls.Add(LblShow);
             Name = "Uebung1";
             Text = "Uebung1";
+            ((System.ComponentModel.ISupportInitialize)NumNumber).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -81,5 +104,7 @@
         private Label LblShow;
         private Button CmdPlus;
         private Button CmdMinus;
+        private TextBox TxtInput;
+        private NumericUpDown NumNumber;
     }
 }

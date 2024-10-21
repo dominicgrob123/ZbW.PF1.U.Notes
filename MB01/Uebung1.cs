@@ -17,14 +17,30 @@ namespace MB01
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CmdPlus_Click(object sender, EventArgs e)
         {
-            LblShow.Text = CmdPlus.Text;
+            //hier wird ein + dem Text des Lables zugewiesen
+            LblShow.Text = "+"; //  CmdPlus.Text;
         }
 
+        /*
+         * Irrgendein Kommentar
+         * 
+         * 
+         */
         private void CmdMinus_Click(object sender, EventArgs e)
         {
             LblShow.Text = CmdMinus.Text;
+        }
+
+        private void NumNumber_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
