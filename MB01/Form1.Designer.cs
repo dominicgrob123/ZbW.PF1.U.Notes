@@ -54,7 +54,7 @@
             // 
             // CmdEnd
             // 
-            CmdEnd.Location = new Point(55, 168);
+            CmdEnd.Location = new Point(249, 182);
             CmdEnd.Name = "CmdEnd";
             CmdEnd.Size = new Size(112, 34);
             CmdEnd.TabIndex = 3;
