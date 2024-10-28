@@ -31,7 +31,7 @@ namespace MB02
 
         private void Changed(object sender, EventArgs e)
         {
-            RadMonday.Checked
+            RadMonday.Checked = true;
         }
 
         private void RadMonday_CheckedChanged(object sender, EventArgs e)
