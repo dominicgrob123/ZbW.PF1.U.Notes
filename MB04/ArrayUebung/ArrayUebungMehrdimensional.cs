@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MB04.ArrayUebung
+﻿namespace MB04.ArrayUebung
 {
-       public partial class ArrayUebung_Mehrdimensional : Form
+    public partial class ArrayUebungMehrdimensional : Form
     {
-        public ArrayUebung_Mehrdimensional()
+        public ArrayUebungMehrdimensional()
         {
             InitializeComponent();
         }
@@ -30,4 +24,6 @@ namespace MB04.ArrayUebung
             }
         }
     }
+
+
 }
