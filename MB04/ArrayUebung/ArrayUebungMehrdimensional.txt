@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MB04.ArrayUebung
 {
-       public partial class ArrayUebung_Mehrdimensional : Form
+       public partial class ArrayUebungMehrdimensional : Form
     {
-        public ArrayUebung_Mehrdimensional()
+        public ArrayUebungMehrdimensional()
         {
             InitializeComponent();
         }

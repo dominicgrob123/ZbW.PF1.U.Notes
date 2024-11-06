@@ -1,6 +1,6 @@
 ﻿namespace MB04.ArrayUebung
 {
-    partial class ArrayUebung_Mehrdimensional
+    partial class ArrayUebungMehrdimensional
     {
         /// <summary>
         /// Required designer variable.
