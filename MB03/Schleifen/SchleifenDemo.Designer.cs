@@ -36,9 +36,10 @@
             // 
             // CmdFor
             // 
-            CmdFor.Location = new Point(30, 31);
+            CmdFor.Location = new Point(43, 52);
+            CmdFor.Margin = new Padding(4, 5, 4, 5);
             CmdFor.Name = "CmdFor";
-            CmdFor.Size = new Size(75, 23);
+            CmdFor.Size = new Size(107, 38);
             CmdFor.TabIndex = 0;
             CmdFor.Text = "For";
             CmdFor.UseVisualStyleBackColor = true;
@@ -46,9 +47,10 @@
             // 
             // CmdWhile
             // 
-            CmdWhile.Location = new Point(125, 31);
+            CmdWhile.Location = new Point(179, 52);
+            CmdWhile.Margin = new Padding(4, 5, 4, 5);
             CmdWhile.Name = "CmdWhile";
-            CmdWhile.Size = new Size(75, 23);
+            CmdWhile.Size = new Size(107, 38);
             CmdWhile.TabIndex = 1;
             CmdWhile.Text = "While";
             CmdWhile.UseVisualStyleBackColor = true;
@@ -56,9 +58,10 @@
             // 
             // CmdDoWhile
             // 
-            CmdDoWhile.Location = new Point(219, 31);
+            CmdDoWhile.Location = new Point(313, 52);
+            CmdDoWhile.Margin = new Padding(4, 5, 4, 5);
             CmdDoWhile.Name = "CmdDoWhile";
-            CmdDoWhile.Size = new Size(75, 23);
+            CmdDoWhile.Size = new Size(107, 38);
             CmdDoWhile.TabIndex = 2;
             CmdDoWhile.Text = "Do...While";
             CmdDoWhile.UseVisualStyleBackColor = true;
@@ -66,23 +69,26 @@
             // 
             // TxtShow
             // 
-            TxtShow.Location = new Point(30, 75);
+            TxtShow.Location = new Point(43, 125);
+            TxtShow.Margin = new Padding(4, 5, 4, 5);
             TxtShow.Multiline = true;
             TxtShow.Name = "TxtShow";
-            TxtShow.Size = new Size(264, 169);
+            TxtShow.Size = new Size(375, 279);
             TxtShow.TabIndex = 3;
             // 
             // SchleifenDemo
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1459, 809);
+            ClientSize = new Size(2084, 1348);
             Controls.Add(TxtShow);
             Controls.Add(CmdDoWhile);
             Controls.Add(CmdWhile);
             Controls.Add(CmdFor);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "SchleifenDemo";
             Text = "SchleifenDemo";
+            Load += SchleifenDemo_Load;
             ResumeLayout(false);
             PerformLayout();
         }
