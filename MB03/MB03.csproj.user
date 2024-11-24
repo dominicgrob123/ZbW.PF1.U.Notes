@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="A8_2\A8_2_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="A8_2\A8_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Aufgaben\A6-2-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Aufgaben\A6_2_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Aufgaben\A6_2_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Aufgaben\A6_2_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Listen\ListenDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Schleifen\SchleifenDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
